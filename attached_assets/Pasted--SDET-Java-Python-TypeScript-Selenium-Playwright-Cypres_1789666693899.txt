@@ -1,0 +1,176 @@
+🔍 SDET | Java | Python | TypeScript | 🕸 Selenium | ▶ Playwright | 🧪 Cypress | 📱 Mobile | 🎨 UI | 🔗 API | 📊 Data | ⚙️ CI/CD | 📚 4× ML Publications
+Chitti Ravuri — SDET • Automation • Mobile • API • Data • CI/CD
+Java-driven SDET who builds frameworks like products—scalable, maintainable, and CI/CD-ready. Experience across Web, Mobile, API, and Data testing. Published 4 AI/ML works (Grad-CAM, SHAP) bringing explainability into QA.
+
+📧 Email
+🔗 LinkedIn
+Automation Demo (Front-End JavaScript)
+Click to auto-fill this form (simulating E2E typing). This is a front-end JavaScript demo—not Selenium/Playwright/Cypress.
+
+First name
+Last name
+Email
+Phone
+Key skills
+
+⌨ Type Slowly
+⚡ Fill Instantly
+♻ Clear
+🚀 Dive into the full automation frameworks!
+I maintain working versions of this workflow in Selenium (Java/Python), Playwright (TS), and Cypress (JS)—all fully runnable via CLI/CI. This page is a safe, click-and-see demo 👀.
+
+📂 Dive into the GitHub repo or Jenkins/GitHub Actions pipeline to explore the full automation workflow!
+
+About
+Customer-Focused QA
+I build maintainable test architecture (POM/Screenplay, fixtures, data layers), shift-left strategies, and dashboards that help teams ship faster with confidence.
+
+ML + QA
+4 publications (CNN/LSTM, GASF/GADF/MTF encodings, Grad-CAM/SHAP). I apply ML to testing (signal/image checks, anomaly detection) and explain failures visually.
+
+Breadth
+UI (Selenium/Playwright/Cypress), Mobile (Appium/Espresso), API (REST/GraphQL), Data (SQL), CI/CD (Jenkins/GitHub Actions), Observability, and Test Strategy.
+
+Experience
+Senior Software Development Engineer in Test
+New Jersey Department of Transportation • Jun 2024 – Present • Hybrid • New Jersey, USA
+Built E2E automation for data dashboards with Selenium + visual checks.
+API regression (REST) and strong SQL-backed data validation.
+CI workflows in Jenkins; cross-team quality gates and RTMs.
+Jira/Confluence documentation; mentoring SDETs.
+SeleniumAPIMobileJenkinsSQLVisual TestingJira
+Researcher — ML & Automation Testing
+CREATES • Sep 2022 – May 2024 • On-site • New Jersey
+Playwright/Cypress suites for ML dashboards; cut manual QA by ~40%.
+CNN/LSTM on time-series & point clouds; >90% damage detection accuracy.
+Grad-CAM & SHAP explainability; edge inference pipelines.
+Authored FAA proposal: runway aircraft detection (computer vision).
+PlaywrightCypressPythonCNN/LSTMGrad-CAMSHAP
+Software Development Engineer in Test (Contract)
+Blackboard • Apr 2021 – Jul 2022 • Remote • India
+Selenium + TestNG + Cucumber with POM; parallel execution.
+Android testing with Espresso; API checks via Postman/Newman.
+Maven/Jenkins pipelines; SQL validations.
+SeleniumTestNGCucumberEspressoMavenJenkinsSQL
+QA Automation Engineer (Contract)
+Citi • May 2020 – Mar 2021 • Hyderabad, India
+Web & mobile QA (Zelle/Document Center) using Selenium + Appium.
+Cucumber BDD + GitHub Actions CI; Xray traceability; JMeter perf.
+AppiumSeleniumCucumberGitHub ActionsXrayJMeter
+Freelance — Prompt Engineering & LLM Testing
+Outlier (Part-time) • 2023-2024
+Evaluation prompts & red-team scenarios to improve model safety/quality.
+Rubric-based scoring and analytics; failure taxonomy creation.
+Harnesses to batch-test LLM behaviors at scale.
+Prompt EngineeringLLM EvalRed TeamingAnalytics
+Education
+M.S., Data Science (Thesis Track) — 4.0/4.0
+Rowan University
+Graduate Research Assistant — Machine Learning
+
+SQLComputer ScienceMachine Learning
+B.E., Aerospace Engineering — 9.69/10
+Sathyabama Institute of Science & Technology, Chennai
+Class Representative; scholarship four consecutive years
+
+C ProgrammingLeadershipProjects
+Projects
+Crime Insights & Data Warehouse
+Databricks + AWS Bronze/Silver/Gold layers; ETL + dashboards revealing crime trends and demographic correlations.
+
+DatabricksAWSETLDashboards
+Image Reconstruction & Interpretability
+Autoencoders + Grad-CAM to improve accuracy and transparency in image analysis flows.
+
+Deep LearningImage ProcessingGrad-CAM
+Multivariate Analysis of Wine Quality
+RF/GB/SVM with PCA; regression & classification; strong visualization and multicollinearity checks.
+
+MLPCAVisualization
+AI-Powered Song Lyrics Generator
+TensorFlow + NLTK; tokenization, model training, sequence generation to emulate artist style.
+
+NLPTensorFlowPython
+Gesture-Controlled Game w/ Object Recognition
+Real-time palm detection and object recognition controlling Pygame; scoring mechanics.
+
+OpenCVPygameComputer Vision
+Real-Time Object Detection Web App
+WebGL shaders, live video processing, bounding boxes & labeled detections with confidence scores.
+
+WebGLJavaScriptCV
+Aircraft Passenger Information Management
+Normalized relational DB from EER; ensured integrity and optimized queries.
+
+MySQLDB Design
+Social Media vs Crypto Prices
+10k+ tweets; correlations with Dogecoin movements; measurable trends from specific accounts.
+
+Text MiningTableauPython
+Wildlife Preserve Vehicle Activity
+Cleaned & visualized movement data to detect anomalies/patterns.
+
+D3.jsTableauData Viz
+Light Sail Movement with Photon Energy
+Thermo-structural & radiation analysis; spin-stabilized disc sail with Arduino demonstrator.
+
+SimulationArduinoAerospace
+Publications
+Predicting Low-Cycle Fatigue-Induced Fracture in Rebars (CNN + MTF)
+Structures • May 15, 2024
+Three-layer CNN with MTF; >96% testing accuracy.
+
+CNNMTFSHM
+ML-Based SHM of Rocking Bridge System under Seismic Excitations
+WCEE Milan • Feb 2, 2024
+CNNs + GASF/GADF/MTF encodings; accurate damage detection.
+
+GASFGADFCNN
+Predicting Fractures in Reinforcing Steel Bars (Low-Cycle Fatigue CNN)
+IABSE Manchester • Jan 23, 2024
+97.8% test accuracy; potential for fracture estimation.
+
+CNNTime-Series
+Spalling Detection Techniques Using Deep Learning
+Elsevier Book Chapter • Nov 1, 2023
+Benchmark seismic data; interpretable ML for civil infrastructure.
+
+Interpretable MLSHM
+Light Sail Movement with Photon Energy
+Int’l Journal of Modern Agriculture • May 10, 2021
+Spin-stabilized sail deemed ideal; deployment demonstrator built.
+
+AerospaceSolar Sail
+Honors & Awards
+Golden Key International Honour Society — Member
+Top 15% worldwide — May 2024
+NJDOT Research Showcase
+Poster selection — Dec 2023
+3-Minute Thesis Finalist (Rowan)
+Mar 2023
+Academic Scholarship (Rowan)
+Jan 2023
+Merit Scholarship (Sathyabama)
+Aug 2017
+Gold Medalist (Sathyabama)
+Dept. 1st position
+Skills
+Automation & Mobile
+SeleniumPlaywrightCypressAppiumEspressoXCUITest
+Languages & OOP
+JavaPythonVBScriptC#TypeScript/JavaScriptKotlinSwiftSQL
+API & Data
+REST/GraphQLREST AssuredPostman/NewmanSQL (MySQL/Oracle)Data Validation
+CI/CD & Tools
+JenkinsGitHub ActionsMaven/GradleGit/GitHubJira/Xray/ZephyrTestRail
+ML for QA
+PyTorch/TensorFlow/KerasGrad-CAMSHAPOpenCV
+Cloud & Ops
+AWS/GCP (basics)Linux/BashDocker (basics)Monitoring/Logs
+Contact
+Your name
+Your email
+Message
+
+ 📨 Send
+📬 Reach out anytime — I’d love to hear from you!
