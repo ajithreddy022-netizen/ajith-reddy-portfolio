@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Ajith Reddy B. — Portfolio"
+description = "A personal portfolio for Ajith Reddy B., showcasing software quality engineering, automation, data, projects, and professional experience in a focused single-page experience."
+version = "1.0.0"
+id = "artifacts/ajith-reddy-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21121
+
+[services.development]
+run = "pnpm --filter @workspace/ajith-reddy-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/ajith-reddy-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/ajith-reddy-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21121"
+BASE_PATH = "/"
