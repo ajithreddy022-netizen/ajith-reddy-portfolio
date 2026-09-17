@@ -960,7 +960,7 @@ function Home() {
                 M.S., Computer Science
               </h3>
               <p className="mt-3 text-sm leading-6 text-muted-foreground">
-                Wichita State University · 3.5 / 4.0
+                Wichita State University · 3.4 / 4.0
               </p>
               <p className="mt-2 text-sm leading-6 text-muted-foreground">
                 Graduate Research Assistant — Machine Learning
