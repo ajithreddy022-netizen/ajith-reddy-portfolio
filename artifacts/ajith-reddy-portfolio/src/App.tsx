@@ -129,7 +129,7 @@ const experience = [
   {
     period: "Sep 2022 — May 2024",
     role: "Researcher — ML & Automation Testing",
-    company: "ITSa (NIAR-WSU) · On-site · Kansas",
+    company: "ITS (NIAR-WSU) · On-site · Kansas",
     summary:
       "Connected ML research with practical automation testing for dashboards, computer vision, and explainable model behavior.",
     bullets: [
