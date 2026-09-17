@@ -1215,11 +1215,11 @@ function Home() {
               </p>
               <div className="mt-9 space-y-3">
                 <a
-                  href="mailto:ajith.reddy@example.com"
+                  href="mailto:ajithreddy022@gmail.com"
                   data-testid="link-email"
                   className="focus-ring flex w-fit items-center gap-3 font-mono-custom text-xs text-primary hover:text-secondary"
                 >
-                  <Mail size={15} /> ajithreddy@example.com
+                  <Mail size={15} /> ajithreddy022@gmail.com
                 </a>
                 <a
                   href="https://www.linkedin.com/in/ajithb231/"
