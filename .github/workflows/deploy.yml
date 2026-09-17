@@ -1,0 +1,76 @@
+name: Deploy portfolio to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Set GitHub Pages base path
+        id: pages-path
+        shell: bash
+        run: |
+          repo_name="${GITHUB_REPOSITORY#*/}"
+          if [[ "$repo_name" == "$GITHUB_REPOSITORY_OWNER.github.io" ]]; then
+            echo "base_path=/" >> "$GITHUB_OUTPUT"
+          else
+            echo "base_path=/${repo_name}/" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build portfolio
+        run: pnpm --filter @workspace/ajith-reddy-portfolio run build
+        env:
+          PORT: 4173
+          BASE_PATH: ${{ steps.pages-path.outputs.base_path }}
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: artifacts/ajith-reddy-portfolio/dist/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
