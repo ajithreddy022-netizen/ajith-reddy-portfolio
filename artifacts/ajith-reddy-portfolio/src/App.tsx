@@ -957,10 +957,10 @@ function Home() {
                 <span>Thesis track</span>
               </div>
               <h3 className="mt-12 font-display text-2xl text-foreground">
-                M.S., Data Science
+                M.S., Computer Science
               </h3>
               <p className="mt-3 text-sm leading-6 text-muted-foreground">
-                Rowan University · 4.0 / 4.0
+                Wichita State University · 3.5 / 4.0
               </p>
               <p className="mt-2 text-sm leading-6 text-muted-foreground">
                 Graduate Research Assistant — Machine Learning
@@ -980,13 +980,13 @@ function Home() {
             <article className="border border-border bg-card/40 p-6 sm:p-8">
               <div className="flex justify-between font-mono-custom text-[10px] uppercase tracking-[.14em] text-muted-foreground">
                 <span>Undergraduate</span>
-                <span>9.69 / 10</span>
+                <span>7.47 / 10</span>
               </div>
               <h3 className="mt-12 font-display text-2xl text-foreground">
-                B.E., Aerospace Engineering
+                B.E., Computer Science & Engineering
               </h3>
               <p className="mt-3 text-sm leading-6 text-muted-foreground">
-                Sathyabama Institute of Science & Technology, Chennai
+                Vivekananda Global University (VGU),Rajasthan
               </p>
               <p className="mt-2 text-sm leading-6 text-muted-foreground">
                 Class Representative; scholarship recipient for four consecutive
@@ -1219,10 +1219,10 @@ function Home() {
                   data-testid="link-email"
                   className="focus-ring flex w-fit items-center gap-3 font-mono-custom text-xs text-primary hover:text-secondary"
                 >
-                  <Mail size={15} /> ajith.reddy@example.com
+                  <Mail size={15} /> ajithreddy@example.com
                 </a>
                 <a
-                  href="https://www.linkedin.com"
+                  href="https://www.linkedin.com/in/ajithb231/"
                   target="_blank"
                   rel="noreferrer"
                   data-testid="link-linkedin"
