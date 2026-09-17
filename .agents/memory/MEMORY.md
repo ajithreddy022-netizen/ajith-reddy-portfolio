@@ -1,0 +1,1 @@
+- [GitHub Pages deployment](github-pages-deployment.md) — enable the repository's Pages site for GitHub Actions before running the workflow.
